@@ -1,0 +1,93 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Full height and center the container */
+body, html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #62bffd;
+}
+
+/* Style the container */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+/* Style the login box */
+.login-box {
+  background: white;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Style the title */
+.login-box h1 {
+  margin-bottom: 20px;
+  color: #1da1f2;
+}
+
+/* Style the Twitter button */
+.twitter-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  background: #1da1f2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.twitter-button img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.twitter-button:hover {
+  background: #0d95e8;
+}
+
+/* Style form button */
+form {
+  display: inline-block;
+  margin-top: 20px; /* Adjust as needed */
+}
+
+form button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #1da1f2;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #0d95e8;
+}
